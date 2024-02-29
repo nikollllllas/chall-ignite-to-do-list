@@ -1,0 +1,43 @@
+.wrapper {
+  max-width: 73.6rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.input {
+  display: flex;
+  flex: 1;
+
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.input input,
+.input button {
+  transform: translateY(-50%);
+
+  margin-bottom: 2.3125rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.main>div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  :root {
+    /* font-size: 62.5% = 100% || 54.69% = 87.5% */
+    font-size: 54.69%;
+  }
+
+  body {
+    padding: 0 1.5rem;
+  }
+}

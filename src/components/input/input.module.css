@@ -1,0 +1,20 @@
+.input {
+  width: 100%;
+  padding: 1.6rem;
+  border-radius: 0.8rem;
+  border: var(--gray-600);
+  background-color: var(--gray-500);
+  color: var(--gray-300);
+  font-size: 1.6rem;
+  font-weight: 400;
+  transition: border-color 0.2s ease-in-out;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.input:focus {
+  outline: none;
+  color: var(--gray-100);
+  border-color: var(--purple-500);
+}
+
